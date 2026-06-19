@@ -1,0 +1,59 @@
+{
+  "navbar": {
+    "mainNav": "Navegación principal",
+    "goHome": "Ir al inicio",
+    "cart_one": "Carrito, {{count}} artículo",
+    "cart_other": "Carrito, {{count}} artículos"
+  },
+  "search": {
+    "placeholder": "Busca un smartphone...",
+    "ariaLabel": "Busca teléfonos por marca o nombre",
+    "resultCount_one": "{{count}} resultado",
+    "resultCount_other": "{{count}} resultados"
+  },
+  "phoneCard": {
+    "ariaLabel": "{{brand}} {{name}}, {{price}} EUR"
+  },
+  "phoneList": {
+    "loading": "Cargando..."
+  },
+  "phoneDetails": {
+    "loading": "Cargando...",
+    "notFound": "Teléfono no encontrado",
+    "goBackAriaLabel": "Volver",
+    "back": "Volver",
+    "phoneSectionAriaLabel": "Detalles del teléfono",
+    "imageAlt": "{{brand}} {{name}} en {{color}}",
+    "imageAltNoColor": "{{brand}} {{name}}",
+    "priceFrom": "Desde {{price}} EUR",
+    "price": "{{price}} EUR",
+    "storageLabel": "Almacenamiento. ¿Cuánto espacio necesitas?",
+    "storageAriaLabel": "Selecciona almacenamiento",
+    "colorLabel": "Color. Elige tu favorito.",
+    "colorAriaLabel": "Selecciona color",
+    "addToCart": "Añadir al carrito",
+    "specsSectionAriaLabel": "Especificaciones técnicas",
+    "specsHeading": "Especificaciones",
+    "specBrand": "Marca",
+    "specName": "Nombre",
+    "specDescription": "Descripción",
+    "specScreen": "Pantalla",
+    "specResolution": "Resolución",
+    "specProcessor": "Procesador",
+    "specMainCamera": "Cámara principal",
+    "specSelfieCamera": "Cámara frontal",
+    "specBattery": "Batería",
+    "specOS": "Sistema operativo",
+    "specRefreshRate": "Frecuencia de actualización",
+    "similarSectionAriaLabel": "Productos similares",
+    "similarHeading": "Artículos similares"
+  },
+  "cart": {
+    "heading": "Carrito ({{total}})",
+    "removeAriaLabel": "Eliminar {{brand}} {{name}} del carrito",
+    "remove": "Eliminar",
+    "total": "Total: {{price}} EUR",
+    "continueShopping": "Continuar comprando",
+    "pay": "Pagar"
+  }
+}

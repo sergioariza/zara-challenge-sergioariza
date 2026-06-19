@@ -1,0 +1,22 @@
+.switcher {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+}
+
+.langButton {
+  font-size: var(--fs-xs);
+  font-weight: var(--font-weight-regular);
+  letter-spacing: 0.05em;
+  color: var(--color-placeholder);
+  transition: color 0.15s;
+
+  &[aria-pressed='true'] {
+    color: var(--color-black);
+    text-decoration: underline;
+  }
+
+  &:hover {
+    color: var(--color-black);
+  }
+}

@@ -1,0 +1,33 @@
+.wrapper {
+  padding: var(--space-12) var(--space-16);
+  margin-bottom: var(--space-32);
+
+  @media (min-width: 768px) {
+    padding: var(--space-12) var(--space-40);
+  }
+}
+
+.inputWrapper {
+  padding-bottom: var(--space-8);
+  margin-bottom: var(--space-12);
+  border-bottom: 1px solid var(--color-black);
+}
+
+.input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: var(--fs-base);
+  &::placeholder {
+    color: var(--color-placeholder);
+  }
+  &::-webkit-search-cancel-button {
+    display: none;
+  }
+}
+
+.results {
+  font-size: var(--fs-sm);
+  text-transform: uppercase;
+  letter-spacing: 0;
+}

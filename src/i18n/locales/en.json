@@ -1,0 +1,59 @@
+{
+  "navbar": {
+    "mainNav": "Main navigation",
+    "goHome": "Go to home",
+    "cart_one": "Cart, {{count}} item",
+    "cart_other": "Cart, {{count}} items"
+  },
+  "search": {
+    "placeholder": "Search for a smartphone...",
+    "ariaLabel": "Search phones by brand or name",
+    "resultCount_one": "{{count}} result",
+    "resultCount_other": "{{count}} results"
+  },
+  "phoneCard": {
+    "ariaLabel": "{{brand}} {{name}}, {{price}} EUR"
+  },
+  "phoneList": {
+    "loading": "Loading..."
+  },
+  "phoneDetails": {
+    "loading": "Loading...",
+    "notFound": "Phone not found",
+    "goBackAriaLabel": "Go back",
+    "back": "Back",
+    "phoneSectionAriaLabel": "Phone details",
+    "imageAlt": "{{brand}} {{name}} in {{color}}",
+    "imageAltNoColor": "{{brand}} {{name}}",
+    "priceFrom": "From {{price}} EUR",
+    "price": "{{price}} EUR",
+    "storageLabel": "Storage. How much space do you need?",
+    "storageAriaLabel": "Select storage",
+    "colorLabel": "Color. Pick your favourite.",
+    "colorAriaLabel": "Select color",
+    "addToCart": "Add to cart",
+    "specsSectionAriaLabel": "Technical specifications",
+    "specsHeading": "Specifications",
+    "specBrand": "Brand",
+    "specName": "Name",
+    "specDescription": "Description",
+    "specScreen": "Screen",
+    "specResolution": "Resolution",
+    "specProcessor": "Processor",
+    "specMainCamera": "Main camera",
+    "specSelfieCamera": "Selfie camera",
+    "specBattery": "Battery",
+    "specOS": "OS",
+    "specRefreshRate": "Refresh rate",
+    "similarSectionAriaLabel": "Similar products",
+    "similarHeading": "Similar items"
+  },
+  "cart": {
+    "heading": "Cart ({{total}})",
+    "removeAriaLabel": "Remove {{brand}} {{name}} from cart",
+    "remove": "Remove",
+    "total": "Total: {{price}} EUR",
+    "continueShopping": "Continue shopping",
+    "pay": "Pay"
+  }
+}
