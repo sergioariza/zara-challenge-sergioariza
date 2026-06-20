@@ -16,7 +16,7 @@ export function LanguageSwitcher() {
         <button
           key={code}
           className={styles.langButton}
-          onClick={() => i18n.changeLanguage(code)}
+          onClick={() => { i18n.changeLanguage(code); localStorage.setItem('zara-lang', code) }}
           aria-pressed={i18n.language === code}
         >
           {label}

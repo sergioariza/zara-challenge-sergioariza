@@ -10,7 +10,7 @@ i18n.use(initReactI18next).init({
     es: { translation: es },
     ca: { translation: ca },
   },
-  lng: 'en',
+  lng: localStorage.getItem('zara-lang') ?? 'en',
   fallbackLng: 'en',
   interpolation: {
     escapeValue: false,

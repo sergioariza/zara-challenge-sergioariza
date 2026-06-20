@@ -10,7 +10,7 @@ A single-page React application for browsing, searching, and purchasing mobile p
 - Real-time search filtered server-side, with a debounced input to avoid excessive requests
 - Phone detail page with storage and color selectors, dynamic price updates, and image changes on color selection
 - Persistent shopping cart backed by `localStorage`
-- Internationalisation (EN / ES / CAT) powered by `react-i18next`, switchable from the navbar
+- Internationalisation (EN / ES / CAT) powered by `react-i18next`, switchable from the navbar with the selected language persisted in `localStorage`
 - Responsive layout across all screen sizes
 
 ---
